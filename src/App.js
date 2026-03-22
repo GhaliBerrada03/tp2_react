@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Compteur from './Compteur';
+import MessageBouton from './MessageBouton';
+import FormulaireNom from './FormulaireNom';
+import CompteurEffet from './CompteurEffet';
+import AffichageDynamique from './AffichageDynamique';
+import FormulaireInscription from './FormulaireInscription';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Compteur />
+       <MessageBouton />
+            <FormulaireNom />
+                  <CompteurEffet />
+                  <AffichageDynamique />
+                  <FormulaireInscription />
+
+
     </div>
   );
 }
